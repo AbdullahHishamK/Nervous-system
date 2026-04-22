@@ -1,0 +1,246 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #111827;
+  padding-top: 4rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.hero-section {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.9), rgba(139, 92, 246, 0.9));
+  padding: 2rem 3rem;
+  border-radius: 24px;
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  animation: slideIn 1s ease-out;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -70%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes glow {
+  from {
+    filter: drop-shadow(0 0 20px #60a5fa);
+  }
+  to {
+    filter: drop-shadow(0 0 30px #a78bfa);
+  }
+}
+
+.underline {
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+}
+
+.hero-image-container {
+  max-width: 600px;
+  width: 90%;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transform: translateY(20px);
+}
+
+.hero-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+.student-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.student-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at center, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+}
+
+.student-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.student-card {
+  background: rgba(17, 24, 39, 0.9);
+  backdrop-filter: blur(20px);
+  padding: 3rem;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.student-card:hover {
+  transform: scale(1.02);
+}
+
+.student-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #10b981, #34d399);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.info-card {
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  backdrop-filter: blur(10px);
+  margin: 1rem 0;
+}
+
+.info-card.name {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2));
+}
+
+.info-card.subject {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(52, 211, 153, 0.2));
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.info-label {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.info-value {
+  font-size: 2rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #ffffff, #e5e7eb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subject-value {
+  background: linear-gradient(135deg, #10b981, #34d399);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.final-section {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.final-image-container {
+  max-width: 700px;
+  width: 90%;
+  position: relative;
+  cursor: pointer;
+}
+
+.final-image {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  transition: all 0.6s ease;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.final-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  border-radius: 24px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.final-image-container:hover .final-overlay {
+  opacity: 1;
+}
+
+.final-image-container:hover .final-image {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .hero-title h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-image {
+    height: 250px;
+  }
+  
+  .student-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .info-value {
+    font-size: 1.5rem;
+  }
+}
+
