@@ -40,10 +40,11 @@ const Home = () => {
       <section className="final-section">
         <div className="final-image-container">
           <img 
-            src="/src/assets/AA5AbUDOuLwyHyi39rOWXqght2Rq19b3MjjVnYiZe-9_f7RxqV2gvnHNBsnziaeTbGtNzOgkTcB8xYfUZqUjmrB-qq05ErJYj7K-vqSXJjwK4rYylWoJoE1NtJc0HWV8IW8v6Z0ssFL7JSuJ2GpNBQM4aZxRNyJzyS2Ipg9n-oCwZ4uPJOaWRxY2DC6aL6PYRGBTcLpWOd1I97NvRDg9.png" 
+            src="/asset9-final.png" 
             alt="الجهاز العصبي الختامي" 
             className="final-image"
           />
+
 
           <div className="final-overlay">
             استكشف الجهاز التنفسي
