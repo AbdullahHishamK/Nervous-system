@@ -7,10 +7,12 @@ const Starter = () => {
       {/* Hero Section with Overlay Title */}
       <section className="hero-section">
         <img 
-          src="/src/assets/asset 10.jpeg" 
+          src="/asset10-hero.jpg" 
           alt="المقدمة" 
           className="hero-image"
         />
+
+
 
         <div className="overlay-title">المقدمة</div>
       </section>
