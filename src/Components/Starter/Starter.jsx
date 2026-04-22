@@ -11,16 +11,18 @@ const Starter = () => {
           alt="المقدمة" 
           className="hero-image"
         />
+
         <div className="overlay-title">المقدمة</div>
       </section>
 
       {/* Content Section */}
       <section className="content-section">
         <img 
-          src="/src/assets/starter.png.png" 
+          src="/starter.png.png" 
           alt="الجهاز التنفسي" 
           className="content-image"
         />
+
         <h2 className="section-title">مقدمة عن الجهاز التنفسي للإنسان</h2>
         <div className="text-content">
           الجهاز التنفسي هو الجهاز المسؤول عن إدخال الأكسجين إلى الجسم وإخراج ثاني أكسيد الكربون. 
