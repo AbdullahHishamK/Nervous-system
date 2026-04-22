@@ -7,10 +7,11 @@ const Explination = () => {
       {/* Hero Section - same as Starter */}
       <section className="hero-section">
         <img 
-          src="/src/assets/asset 10.jpeg" 
+          src="/asset10-hero.jpg" 
           alt="الجهاز التنفسي" 
           className="hero-image"
         />
+
 
         <div className="overlay-title">🫁 الجهاز التنفسي للإنسان <br/>(شرح مبسط ومفصل)</div>
       </section>

@@ -20,10 +20,12 @@ const Starter = () => {
       {/* Content Section */}
       <section className="content-section">
         <img 
-          src="/starter.png.png" 
+          src="/src/assets/starter.png.png" 
           alt="الجهاز التنفسي" 
           className="content-image"
         />
+
+
 
         <h2 className="section-title">مقدمة عن الجهاز التنفسي للإنسان</h2>
         <div className="text-content">
