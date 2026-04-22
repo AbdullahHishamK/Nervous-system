@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import heroImg from '../../assets/asset 10.jpeg'
 
 const Home = () => {
   return (
@@ -7,9 +8,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <img 
-          src="/src/assets/asset 10.jpeg" 
+          src={heroImg} 
           alt="الجهاز العصبي" 
-          className="hero-image"
+          className="heroimage"
         />
         <div className="overlay-title">الجهاز العصبي</div>
       </section>
