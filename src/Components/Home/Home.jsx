@@ -15,7 +15,6 @@ const Home = () => {
         <div className="overlay-title">الجهاز العصبي</div>
       </section>
 
-
       {/* Student Section */}
       <section className="student-section">
         <div className="student-overlay"></div>
@@ -44,7 +43,6 @@ const Home = () => {
             alt="الجهاز العصبي الختامي" 
             className="final-image"
           />
-
 
           <div className="final-overlay">
             استكشف الجهاز التنفسي
